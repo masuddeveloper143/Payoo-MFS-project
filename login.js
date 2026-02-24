@@ -9,7 +9,7 @@ document.getElementById('btn-login')
         let inputDigit = document.getElementById('input-digit').value;
         // console.log('Account Number: ', inputNumber);
         // console.log('OTP: ', inputDigit);
-        let 
+        let convertedDigit = parseInt(inputDigit);
 
         if (inputNumber.length === 11) {
             // console.log('number succesfull');
