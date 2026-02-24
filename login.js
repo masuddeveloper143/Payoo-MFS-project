@@ -9,10 +9,11 @@ document.getElementById('btn-login')
         let inputDigit = document.getElementById('input-digit').value;
         // console.log('Account Number: ', inputNumber);
         // console.log('OTP: ', inputDigit);
+        let 
 
         if (inputNumber.length === 11) {
             // console.log('number succesfull');
-            if (inputDigit === 4) {
+            if (inputDigit === 7755) {
                 console.log('corrct your pin');
             }
 
