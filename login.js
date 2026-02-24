@@ -18,12 +18,12 @@ document.getElementById('btn-login')
             }
 
             else {
-                console.log('invalid your pin');
+                alert('invalid your pin');
             }
 
         }
         else {
-            console.log('invalid your number');
+            alert('invalid your number');
         }
 
         // else {
