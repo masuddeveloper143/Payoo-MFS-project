@@ -13,8 +13,8 @@ document.getElementById('btn-login')
 
         if (inputNumber.length === 11) {
             // console.log('number succesfull');
-            if (inputDigit === 7755) {
-                console.log('corrct your pin');
+            if (convertedDigit === 7755) {
+                window.location.href = "./min.html"
             }
 
             else {
