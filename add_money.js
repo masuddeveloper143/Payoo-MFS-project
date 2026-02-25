@@ -1,1 +1,1 @@
-alert('wolcome')
+// alert('wolcome')
