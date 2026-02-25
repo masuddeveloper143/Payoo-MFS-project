@@ -3,5 +3,6 @@ document.getElementById('btn-add-money')
         event.preventDefault();
         const amount = document.getElementById('amount').value;
         // console.log(typeof amount);
+        const convertedAmount = parseFloat(amount);
         
     })
