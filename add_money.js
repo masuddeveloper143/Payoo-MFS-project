@@ -5,7 +5,7 @@ document.getElementById('btn-add-money')
         // console.log(typeof amount);
         const convertedAmount = parseFloat(amount);
         const pin = document.getElementById('pin').value;
-        const convertedPin = parseFloat(pin);
+        const convertedPin = parseInt(pin);
         const minBalance = document.getElementById('min_balence')
             .innerText;
         // console.log(typeof minBalance);
