@@ -8,5 +8,5 @@ document.getElementById('btn-add-money')
     const pin = document.getElementById('pin').value;
     // console.log( typeof pin);
 
-    
+    const converted = p
 })
