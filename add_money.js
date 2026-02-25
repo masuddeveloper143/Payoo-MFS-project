@@ -15,8 +15,8 @@ document.getElementById('btn-add-money')
         if (convertedPin === 1234) {
             // console.log('Add money succsesfule')
             const sum = convertedBalance + convertedAmount;
-            minBalance = document.getElementById('min_balence').innerText = sum;
-            
+            document.getElementById('min_balence').innerText = sum;
+
         }
         else {
             console.log('incrroct your Pin');
