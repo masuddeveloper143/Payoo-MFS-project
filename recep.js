@@ -4,5 +4,9 @@ document.getElementById('btn-add-money')
     event.preventDefault();
 
     const amount = document.getElementById('amount').value;
-    console.log(typeof amount);
+    // console.log(typeof amount);
+    const pin = document.getElementById('pin').value;
+    // console.log( typeof pin);
+
+    
 })
