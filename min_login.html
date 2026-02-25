@@ -22,7 +22,7 @@
                     <div class="flex gap-2">
                         <img class="w-13" src="./assets/Group.png" alt="">
                         <div>
-                            <h1 class="font-bold "> $45000</h1>
+                            <h1 class="font-bold "> $<span id="min_balence">0.00</span></h1>
                             <p class="opacity-80">Available Balance</p>
                         </div>
 
@@ -97,7 +97,8 @@
                                                 class="input  rounded-full bg-slate-200 border-none"
                                                 placeholder="Enter 11 digit account number" />
                                             <label class="label">Amount</label>
-                                            <input id="amount" type="number" class="input  rounded-full bg-slate-200 border-none"
+                                            <input id="amount" type="number"
+                                                class="input  rounded-full bg-slate-200 border-none"
                                                 placeholder="type your amount" />
                                             <label class="label">PIN</label>
                                             <input id="pin" value="1234" type="number"
@@ -106,7 +107,8 @@
                                             <!-- <label class="label">Pin Number</label>
                                         <input type="number" class="input rounded-full bg-slate-200" placeholder="Enter 4 digit pin number" /> -->
                                             <div><a class="link link-hover">Forgot password?</a></div>
-                                            <button id="btn-add-money" class="btn btn-neutral mt-4" type="submit">Add Momey</button>
+                                            <button id="btn-add-money" class="btn btn-neutral mt-4" type="submit">Add
+                                                Momey</button>
                                         </fieldset>
                                     </div>
                                 </div>
