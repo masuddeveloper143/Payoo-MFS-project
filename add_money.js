@@ -4,5 +4,6 @@ document.getElementById('btn-add-money')
         const amount = document.getElementById('amount').value;
         // console.log(typeof amount);
         const convertedAmount = parseFloat(amount);
+        document.getElementById('pin').value;
         
     })
