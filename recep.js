@@ -3,5 +3,6 @@ document.getElementById('btn-add-money')
     // console.log('button cliked');
     event.preventDefault();
 
-    const amount = document.getElementById()
+    const amount = document.getElementById('amount').value;
+    console.log(typeof amount);
 })
