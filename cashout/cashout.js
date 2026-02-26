@@ -4,7 +4,7 @@ document.getElementById('cashout_btn')
 
         const accountNumber = document.getElementById('acount_number').value;
         const pin = document.getElementById('cashout_pin').value;
-        const amount = document.getElementById('cashout_pin').value;
+        const amount = document.getElementById('cashout_amount').value;
         const minBalance = document.getElementById('min_balence').innerText;
 
         //    string convert to Number 
