@@ -3,5 +3,5 @@ document.getElementById('cashout_btn')
         even.preventDefault();
 
         const accountNumber = document.getElementById('acount_number').value;
-        console.log(accountNumber);
+        const pin = document.getElementById('')
     });
