@@ -4,3 +4,5 @@ document.getElementById('add-money_box')
         document.getElementById('cashout').style.display = 'block';
 
     })
+
+    
