@@ -11,4 +11,7 @@ document.getElementById('cashout_btn')
         const convertedToPin = parseFloat(pin);
         const convertedToAmount = parseFloat(amount);
 
+        if (convertedToPin === 6644) {
+
+        }
     });
