@@ -14,6 +14,7 @@ document.getElementById('cashout_btn')
         const convertedToMinBalance = parseFloat(minBalance)
 
         if (convertedToPin === 6644) {
-            su
+            const sum = convertedToAmount - convertedToMinBalance;
+            document.getElementById('min_balence').innerText = sum;
         }
     });
