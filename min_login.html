@@ -17,7 +17,7 @@
 <body class="bg-slate-800">
     <header>
         <section class="max-w-md min-h-screen mx-auto py-6 bg-slate-200">
-            <header>
+            <section>
                 <nav class="flex justify-between items-center px-5 ">
                     <div class="flex gap-2">
                         <img class="w-13" src="./assets/Group.png" alt="">
@@ -48,11 +48,11 @@
                 <!-- crad section  -->
                 <section class="mt-7">
                     <div class="grid grid-cols-3 gap-2 px-2">
-                        <div class="border py-4 text-center rounded-sm">
+                        <div id="add-money" class="border py-4 text-center rounded-sm">
                             <img class="mx-auto" src="./assets/wallet1.png" alt="">
                             <p>Add Money</p>
                         </div>
-                        <div class="border py-4 text-center rounded-sm">
+                        <div id="cashout" class="border py-4 text-center rounded-sm">
                             <img class="mx-auto" src="./assets/send1.png" alt="Money">
                             <p>Cashout</p>
                         </div>
@@ -77,47 +77,77 @@
                         <h1 class="font-bold">Add Money</h1>
 
                     </div>
+                </section>
+                <section class="px-5 ">
+                    <div class=" ">
+                        <div class="hero-content flex-col lg:flex-row-reverse">
+                            <div class="card w-full max-w-sm shrink-0 shadow-2xl">
 
-                    <section class="px-5 ">
-                        <div class=" ">
-                            <div class="hero-content flex-col lg:flex-row-reverse">
-                                <div class="card w-full max-w-sm shrink-0 shadow-2xl">
-
-                                    <div class="card-body bg-slate-100 rounded-xl">
-                                        <fieldset class="fieldset space-y-1">
-                                            <h1>Select A Bank</h1>
-                                            <select class="select rounded-full bg-slate-200 border-none">
-                                                <option>Select back</option>
-                                                <option value="Bikash ">Bikash</option>
-                                                <option value="Nogot">Nogot</option>
-                                                <option value="islami Bank">islami bank</option>
-                                            </select>
-                                            <label class="label">Account Number</label>
-                                            <input value="01753687965" type="number"
-                                                class="input  rounded-full bg-slate-200 border-none"
-                                                placeholder="Enter 11 digit account number" />
-                                            <label class="label">Amount</label>
-                                            <input id="amount" type="number"
-                                                class="input  rounded-full bg-slate-200 border-none"
-                                                placeholder="type your amount" />
-                                            <label class="label">PIN</label>
-                                            <input id="pin" value="1234" type="number"
-                                                class="input rounded-full bg-slate-200 border-none"
-                                                placeholder="Entre your Pin" />
-                                            <!-- <label class="label">Pin Number</label>
+                                <div class="card-body bg-slate-100 rounded-xl">
+                                    <fieldset class="fieldset space-y-1">
+                                        <h1>Select A Bank</h1>
+                                        <select class="select rounded-full bg-slate-200 border-none">
+                                            <option>Select back</option>
+                                            <option value="Bikash ">Bikash</option>
+                                            <option value="Nogot">Nogot</option>
+                                            <option value="islami Bank">islami bank</option>
+                                        </select>
+                                        <label class="label">Account Number</label>
+                                        <input value="01753687965" type="number"
+                                            class="input  rounded-full bg-slate-200 border-none"
+                                            placeholder="Enter 11 digit account number" />
+                                        <label class="label">Amount</label>
+                                        <input id="amount" type="number"
+                                            class="input  rounded-full bg-slate-200 border-none"
+                                            placeholder="type your amount" />
+                                        <label class="label">PIN</label>
+                                        <input id="pin" value="1234" type="number"
+                                            class="input rounded-full bg-slate-200 border-none"
+                                            placeholder="Entre your Pin" />
+                                        <!-- <label class="label">Pin Number</label>
                                         <input type="number" class="input rounded-full bg-slate-200" placeholder="Enter 4 digit pin number" /> -->
-                                            <div><a class="link link-hover">Forgot password?</a></div>
-                                            <button id="btn-add-money" class="btn btn-neutral mt-4" type="submit">Add
-                                                Momey</button>
-                                        </fieldset>
-                                    </div>
+                                        <div><a class="link link-hover">Forgot password?</a></div>
+                                        <button id="btn-add-money" class="btn btn-neutral mt-4" type="submit">Add
+                                            Momey</button>
+                                    </fieldset>
                                 </div>
                             </div>
                         </div>
-                    </section>
-            </header>
-            <!-- <script src="add_money.js"></script> -->
-             <script src="recep.js"></script>
+                    </div>
+                </section>
+            </section>
+
+
+            <!-- cashout section  -->
+            <section id="cashout">
+                <fieldset class="fieldset space-y-1">
+                    <h1>Select A Bank</h1>
+                    <select class="select rounded-full bg-slate-200 border-none">
+                        <option>Select back</option>
+                        <option value="Bikash ">Bikash</option>
+                        <option value="Nogot">Nogot</option>
+                        <option value="islami Bank">islami bank</option>
+                    </select>
+                    <label class="label">Account Number</label>
+                    <input value="01753687965" type="number" class="input  rounded-full bg-slate-200 border-none"
+                        placeholder="Enter 11 digit account number" />
+                    <label class="label">Amount</label>
+                    <input id="amount" type="number" class="input  rounded-full bg-slate-200 border-none"
+                        placeholder="type your amount" />
+                    <label class="label">PIN</label>
+                    <input id="pin" value="1234" type="number" class="input rounded-full bg-slate-200 border-none"
+                        placeholder="Entre your Pin" />
+                    <!-- <label class="label">Pin Number</label>
+                                        <input type="number" class="input rounded-full bg-slate-200" placeholder="Enter 4 digit pin number" /> -->
+                    <div><a class="link link-hover">Forgot password?</a></div>
+                    <button id="btn-add-money" class="btn btn-neutral mt-4" type="submit">Add
+                        Momey</button>
+                </fieldset>
+            </section>
+        </section>
+    </header>
+    <!-- <script src="add_money.js"></script> -->
+    <script src="recep.js"></script>
 
 </body>
 
