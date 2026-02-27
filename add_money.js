@@ -15,14 +15,20 @@ document.getElementById('btn-add-money')
         // console.log(typeof convertedBalance);
 
         if (convertedPin === 1234) {
-            alert('Add money succsesfule')
+
+            if (convertedAmount > convertedBalance) {
+                alert("Insufficient Balance");
+                return;
+            }
+
             const sum = convertedBalance + convertedAmount;
             document.getElementById('min_balence').innerText = sum;
 
-        }
-        else {
-            console.log('incrroct your Pin');
+            alert("Cash Out Successful");
 
+        } else {
+            alert('Incorrect Pin');
         }
 
     });
+
