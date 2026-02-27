@@ -1,11 +1,11 @@
 document.getElementById('btn-add-money')
     .addEventListener('click', function (event) {
         event.preventDefault();
-        const amount = document.getElementById('amount').value;
+        const addAmount = document.getElementById('add_amount').value;
         // console.log(typeof amount);
-        const convertedAmount = parseFloat(amount);
-        const pin = document.getElementById('pin').value;
-        const convertedPin = parseInt(pin);
+        const convertedAmount = parseFloat(addAmount);
+        const addPin = document.getElementById('add_pin').value;
+        const convertedPin = parseInt(addPin);
         const minBalance = document.getElementById('min_balence')
             .innerText;
         // console.log(typeof minBalance);
