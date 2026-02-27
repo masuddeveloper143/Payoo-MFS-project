@@ -15,6 +15,8 @@ document.getElementById('btn-login')
             // console.log('number succesfull');
             if (convertedDigit === 7755) {
                 window.location.href = "./min_login.html";
+                alert('successfull login🎉');
+                return;
             }
 
             else {

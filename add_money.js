@@ -17,10 +17,11 @@ document.getElementById('btn-add-money')
             const sum = convertedBalance + convertedAmount;
             document.getElementById('min_balence').innerText = sum;
 
+            alert('Add money successful 🎉');
         }
         else {
-            console.log('incrroct your Pin');
+            alert('incrroct your Pin');
 
         }
 
-    })
+    });
